@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
 
-import Logo from "./assets/logo.png";
+import { ReactComponent as Logo } from "./assets/logo.svg";
 import { ReactComponent as Wpp } from "../wpp.svg";
 
 const Header = () => {
   return (
     <section>
       <div className="container navegacaoTopo">
-        <img src={Logo} alt="alt" />
+        <Logo />
         <ul className="nav">
           <li>
             <a href="#servicos">Serviços</a>
