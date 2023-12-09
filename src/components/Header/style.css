@@ -1,0 +1,44 @@
+.navegacaoTopo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--cor-terciaria);
+    flex-wrap: wrap;
+}
+
+.nav {
+    gap: 2rem;
+    display: flex;
+    font-family: "Belleza", sans-serif;
+}
+
+.nav a {
+    color: #430034;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0.4rem 1rem;
+    transition: 0.2s ease-in;
+}
+
+.nav a:hover {
+    background-color: var(--cor-terciaria);
+    color: #fff;
+    -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 420px) {
+    .navegacaoTopo {
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+.whatsapp-icon {
+    z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}

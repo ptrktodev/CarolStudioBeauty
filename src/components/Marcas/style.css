@@ -1,0 +1,31 @@
+@import url("../var.css");
+.marcas h1 {
+    font-size: var(--tam-Font-subtitle);
+    color: var(--cor-principal);
+    margin: 2rem auto;
+    border-bottom: 1px solid var(--cor-terciaria);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.items {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.items-img1 {
+    display: flex;
+    justify-content: center;
+    flex: 1 250px;
+    height: 70px;
+}
+
+.items-img {
+    flex: 1 250px;
+    justify-content: center;
+    display: flex;
+    padding: 2rem 1rem;
+}

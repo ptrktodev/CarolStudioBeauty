@@ -1,0 +1,68 @@
+@import url("../var.css");
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato h1 {
+    font-size: var(--tam-Font-subtitle);
+    color: var(--cor-principal);
+    margin: 2rem auto;
+    border-bottom: 1px solid var(--cor-terciaria);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.item-contatos {
+    display: flex;
+    justify-content: center;
+}
+
+.item-contatos p {
+    margin: 1.5rem 0;
+    padding: 0rem 12rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--cor-secundaria);
+}
+
+.contato button {
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 4px;
+    background-color: var(--cor-terciaria);
+    padding: 0.8rem 3rem;
+    background-color: var(--cor-terciaria);
+    transition: 0.3s ease-in;
+    -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+}
+
+.contato button:hover {
+    transform: scale(1.01);
+}
+
+.contato button a {
+    font-family: "Belleza", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 830px) {
+    .item-contatos p {
+        padding: 0rem 3rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .item-contatos p {
+        font-size: 1.2rem;
+        padding: 0rem 1rem;
+    }
+}

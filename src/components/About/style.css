@@ -1,0 +1,37 @@
+@import url("../var.css");
+
+.About h1 {
+    font-size: var(--tam-Font-subtitle);
+    color: var(--cor-principal);
+    margin: 2rem auto;
+    border-bottom: 1px solid var(--cor-terciaria);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.about-img {
+    flex: 1 1 200px;
+}
+
+.about-p {
+    color: var(--cor-secundaria);
+    font-size: 1.4rem;
+    flex: 1 1 260px;
+}
+
+@media screen and (max-width: 750px) {
+    .about-div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about-p {
+        font-size: 1.2rem;
+    }
+}
