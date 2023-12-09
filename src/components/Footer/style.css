@@ -1,35 +1,51 @@
 @import url("../var.css");
 
 .footerBG {
-    background-color: #ffcbfa;
-    margin-top: 3rem;
-    padding: 2rem 0;
+  background-color: #ffcbfa;
+  margin-top: 3rem;
+  padding: 2rem 0;
 }
 
 .footer {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .item {
-    flex: 1 1 200px;
+  padding-left: 1.5rem;
+  flex: 1 1 200px;
 }
 
 .item h2 {
-    margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .item p {
-    color: var(--cor-secundaria);
-    font-size: 0.8rem;
-    font-family: "Inter", sans-serif;
-    margin-bottom: 0.2rem;
+  color: var(--cor-secundaria);
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.2rem;
 }
 
 .medias {
-    display: flex;
-    gap: 0.4rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.created {
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.created a {
+  color: rgb(106, 0, 106);
+  padding-left: 4px;
+  font-family: "Inter", sans-serif;
 }

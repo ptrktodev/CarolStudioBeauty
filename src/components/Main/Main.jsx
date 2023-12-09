@@ -10,15 +10,13 @@ const Main = () => {
           STUDIO <br /> CAROL RODRIGUEZ
         </h1>
         <button>
-          <h3>
-            <a
-              href="https://wa.me/5548996144267"
-              target="_blank"
-              rel="noreferrer"
-            >
-              VAMOS REALÇAR SUA BELEZA?
-            </a>
-          </h3>
+          <a
+            href="https://wa.me/5548996144267"
+            target="_blank"
+            rel="noreferrer"
+          >
+            VAMOS REALÇAR SUA BELEZA?
+          </a>
         </button>
       </div>
     </main>

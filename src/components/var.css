@@ -1,12 +1,8 @@
 :root {
   --font-family: "Belleza", sans-serif;
-  --bg-primary: #0e0e0e;
-  --bg-secundary: #141414;
   --cor-principal: #000000;
   --cor-secundaria: #2a2a2a;
-  --cor-terciaria: #960087;
-  --tam-Font-title: 2.5rem;
-  --tam-Font-subtitle: 1.6rem;
-  --tam-Font-par: 1rem;
-  --tam-Font-links: 1rem;
+  --cor-terciaria: #b1009f;
+  --tam-Font-subtitle: 1.5rem;
+  --border-radius: 6px;
 }

@@ -38,6 +38,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <h3 className="created">
+        Criado por{" "}
+        <a
+          href="https://techwebsync.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          TechWebSync
+        </a>
+      </h3>
     </section>
   );
 };

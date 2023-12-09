@@ -1,51 +1,59 @@
 .main {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .main h4 {
-    color: #3b3b3b;
-    font-size: 1.4rem;
-    font-family: "Belleza", sans-serif;
-    letter-spacing: 1px;
+  color: #3b3b3b;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
 }
 
 .main h1 {
-    color: #000000;
-    font-size: 4rem;
-    margin-bottom: 4rem;
-    font-family: "Belleza", sans-serif;
-    letter-spacing: 1px;
+  color: #000000;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
 }
 
 .main button {
-    font-size: 0.8rem;
-    cursor: pointer;
-    letter-spacing: 1px;
-    border: none;
-    font-family: "Belleza", sans-serif;
-    padding: 0.2rem 2rem;
-    border-radius: 6px;
-    background-color: var(--cor-terciaria);
-    transition: 0.3s ease-in;
-    -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
-    box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: none;
+  font-family: "Belleza", sans-serif;
+  padding: 1.5rem 2.5rem;
+  border-radius: var(--border-radius);
+  background-color: var(--cor-terciaria);
+  transition: 0.3s ease-in;
+  -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
 }
 
-.main button h3 a {
-    color: #fcfcfc;
+.main button a {
+  font-size: 1rem;
+  color: #fcfcfc;
 }
 
 .main button:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 @media screen and (max-width: 450px) {
-    .main h1 {
-        font-size: 3rem;
-    }
-    .main button {
-        font-size: 0.7rem;
-        padding: 0.2rem 4rem;
-    }
+  .main h1 {
+    font-size: 3rem;
+  }
+  .main button {
+    font-size: 0.7rem;
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .main h1 {
+    font-size: 2.6rem;
+  }
+  .main button {
+    font-size: 0.3rem;
+    padding: 0.8rem 2rem;
+  }
 }
