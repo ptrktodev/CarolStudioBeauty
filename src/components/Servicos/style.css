@@ -1,74 +1,75 @@
 @import url("../var.css");
 
 .servicos {
-    margin-top: 5rem;
-    font-family: "Belleza", sans-serif;
+  margin-top: 5rem;
+  font-family: "Belleza", sans-serif;
 }
 
 .servicos h1 {
-    font-size: var(--tam-Font-subtitle);
-    color: var(--cor-principal);
-    margin: 0 auto;
-    border-bottom: 1px solid var(--cor-terciaria);
-    text-align: center;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+  font-size: var(--tam-Font-subtitle);
+  color: var(--cor-principal);
+  margin: 0 auto;
+  border-bottom: 1px solid var(--cor-terciaria);
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .span-warn {
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
 }
 
 .slide-bloco {
-    margin-top: 1rem;
-    cursor: pointer;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 
 .slide-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
 }
 
 .slide-img {
-    object-fit: cover;
-    width: 95%;
-    margin: 0 auto;
-    height: 500px;
-    border-radius: 6px;
-    -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
-    box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+  border-radius: 6px;
+  -webkit-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: -14px 16px 53px 0px rgba(0, 0, 0, 0.19);
 }
 
 .slide-div {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    gap: 1.5rem;
-    flex-direction: column;
-    padding: 1rem 0.55rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding: 1rem 0.55rem;
 }
 
 .slide-div p {
-    width: 100%;
-    margin-top: 0.5rem;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-    color: black;
+  width: 100%;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: black;
 }
 
 .slide-div span {
-    font-weight: 600;
-    text-align: start;
-    padding: 3px 12px;
-    border-radius: 4px;
+  font-weight: 600;
+  text-align: start;
+  padding: 3px 12px;
+  border-radius: 4px;
 }
 
 /*
