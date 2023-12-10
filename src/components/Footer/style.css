@@ -26,7 +26,7 @@
 .item p {
   color: var(--cor-secundaria);
   font-size: 0.8rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0.2rem;
 }
 
@@ -37,15 +37,14 @@
 
 .created {
   font-size: 0.8rem;
-  font-family: "Inter", sans-serif;
   max-width: 1050px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   display: flex;
   justify-content: center;
 }
 
 .created a {
+  font-family: "Montserrat", sans-serif;
   color: rgb(106, 0, 106);
   padding-left: 4px;
-  font-family: "Inter", sans-serif;
 }

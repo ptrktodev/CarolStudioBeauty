@@ -40,7 +40,11 @@ const Footer = () => {
       </div>
       <h3 className="created">
         Criado por{" "}
-        <a href="https://techwebsync.bohr.io/" target="_blank" rel="noreferrer">
+        <a
+          href="https://techwebsync.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           TechWebSync
         </a>
       </h3>
